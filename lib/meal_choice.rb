@@ -1,4 +1,4 @@
 # Your code here
-def meal_choice(first, second="", third="")
-  puts "A plate of meat with #{first} and #{second}."
+def meal_choice(veg1, veg2, protein="meat")
+  p "A plate of #{protein} with #{veg1} and #{veg2}."
 end
